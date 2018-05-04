@@ -6,7 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    if brand == "Uggs" || "Rainbow" || "Nike" || "Nike"
+    if brand == "Uggs" || "Rainbow" || "Nike"
       BRANDS << brand
     end
   end
