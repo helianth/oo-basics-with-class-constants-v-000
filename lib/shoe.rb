@@ -6,7 +6,8 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    if brand == "Uggs" || "Rainbow" || "Nike" || "Nike"
+      BRANDS << brand
   end
 
   def cobble
