@@ -8,6 +8,7 @@ BRANDS = []
     @brand = brand
     if brand == "Uggs" || "Rainbow" || "Nike" || "Nike"
       BRANDS << brand
+    end
   end
 
   def cobble
