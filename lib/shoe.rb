@@ -6,9 +6,8 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    Shoe::BRANDS.clear
-    if brand == "Uggs" || "Rainbow" || "Nike"
-      BRANDS << brand
+    BRANDS << brand
+    BRANDS == BRANDS.uniq!
     end
   end
 
